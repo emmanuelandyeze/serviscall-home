@@ -63,7 +63,7 @@ const Navbar = () => {
 						About Us
 					</Link>
 					<Link
-						href="https://serviscall.com"
+						href="https://store.serviscall.com"
 						target="_blank"
 						className={
 							isActive('/faqs')
