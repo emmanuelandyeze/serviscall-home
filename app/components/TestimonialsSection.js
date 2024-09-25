@@ -27,7 +27,7 @@ const TestimonialsSection = () => {
 						<div className="flex items-center mt-4">
 							<div>
 								<h4 className="font-semibold text-lg">
-									John Doe
+									Ahmed Salisu
 								</h4>
 								<p className="text-gray-100 text-sm">
 									Business Owner
@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
 						<div className="flex items-center mt-4">
 							<div>
 								<h4 className="font-semibold text-lg">
-									Jane Smith
+									Kayode Ogunyemi
 								</h4>
 								<p className="text-gray-50 text-sm">
 									Homeowner
@@ -65,7 +65,7 @@ const TestimonialsSection = () => {
 						<div className="flex items-center mt-4">
 							<div>
 								<h4 className="font-semibold text-lg">
-									Alex Johnson
+									Alex Samuel
 								</h4>
 								<p className="text-gray-50 text-sm">
 									Restaurant Owner

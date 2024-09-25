@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const ImageTextSection = () => {
@@ -73,9 +74,13 @@ const ImageTextSection = () => {
 					</p>
 
 					{/* Button */}
-					<button className="px-8 py-3 border-2 border-[#ED0D0D] text-[#ED0D0D] font-semibold rounded-lg hover:bg-[#ED0D0D] hover:text-white transition duration-300">
+					<Link
+						href={'https://wa.me/2348131549975'}
+						target="_blank"
+						className="px-8 py-3 border-2 border-[#ED0D0D] text-[#ED0D0D] font-semibold rounded-lg hover:bg-[#ED0D0D] hover:text-white transition duration-300"
+					>
 						Talk to us
-					</button>
+					</Link>
 				</div>
 			</div>
 			<hr />

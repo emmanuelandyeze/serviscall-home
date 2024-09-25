@@ -79,7 +79,7 @@ const Footer = () => {
 							</li>
 							<li className="flex items-center">
 								<MdOutlineEmail className="mr-2" />
-								info@serviscall.com
+								myserviscall@gmail.com
 							</li>
 							<li className="flex items-center">
 								<IoLocationOutline className="mr-2 h-6" />
