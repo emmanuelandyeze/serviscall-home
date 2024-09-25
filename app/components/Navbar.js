@@ -43,7 +43,7 @@ const Navbar = () => {
 						Home
 					</Link>
 					<Link
-						href="/services"
+						href="#"
 						className={
 							isActive('/services')
 								? 'text-[#ED0D0D] font-bold'
@@ -53,7 +53,7 @@ const Navbar = () => {
 						Services
 					</Link>
 					<Link
-						href="/about-us"
+						href="#"
 						className={
 							isActive('/about-us')
 								? 'text-[#ED0D0D] font-bold'
@@ -74,7 +74,7 @@ const Navbar = () => {
 						Shop
 					</Link>
 					<Link
-						href="/contact-us"
+						href="#"
 						className={
 							isActive('/contact-us')
 								? 'text-[#ED0D0D] font-bold'
@@ -149,7 +149,7 @@ const Navbar = () => {
 						Home
 					</Link>
 					<Link
-						href="/services"
+						href="#"
 						onClick={toggleMenu}
 						className={
 							isActive('/services')
@@ -160,7 +160,7 @@ const Navbar = () => {
 						Services
 					</Link>
 					<Link
-						href="/about-us"
+						href="#"
 						onClick={toggleMenu}
 						className={
 							isActive('/about-us')
@@ -171,7 +171,7 @@ const Navbar = () => {
 						About Us
 					</Link>
 					<Link
-						href="https://serviscall.com"
+						href="https://store.serviscall.com"
 						target="_blank"
 						onClick={toggleMenu}
 						className={
@@ -183,7 +183,7 @@ const Navbar = () => {
 						Shop
 					</Link>
 					<Link
-						href="/contact-us"
+						href="#"
 						onClick={toggleMenu}
 						className={
 							isActive('/contact-us')

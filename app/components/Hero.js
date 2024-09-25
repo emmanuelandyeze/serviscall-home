@@ -76,7 +76,7 @@ const Hero = () => {
 			}}
 		>
 			{/* Overlay */}
-			<div className="absolute inset-0 bg-[#C7234E] opacity-[0.95]"></div>
+			<div className="absolute inset-0 bg-[#C7234E] opacity-90"></div>
 
 			{/* Centered Text */}
 			<div className="relative flex flex-col justify-center items-center h-full text-white text-center">
