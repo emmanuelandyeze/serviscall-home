@@ -43,7 +43,7 @@ const Navbar = () => {
 						Home
 					</Link>
 					<Link
-						href="#"
+						href="/services"
 						className={
 							isActive('/services')
 								? 'text-[#ED0D0D] font-bold'
@@ -53,9 +53,9 @@ const Navbar = () => {
 						Services
 					</Link>
 					<Link
-						href="#"
+						href="/aboutus"
 						className={
-							isActive('/about-us')
+							isActive('/aboutus')
 								? 'text-[#ED0D0D] font-bold'
 								: 'hover:text-[#ED0D0D]'
 						}
@@ -74,9 +74,9 @@ const Navbar = () => {
 						Shop
 					</Link>
 					<Link
-						href="#"
+						href="/contact"
 						className={
-							isActive('/contact-us')
+							isActive('/contact')
 								? 'text-[#ED0D0D] font-bold'
 								: 'hover:text-[#ED0D0D]'
 						}
@@ -149,7 +149,7 @@ const Navbar = () => {
 						Home
 					</Link>
 					<Link
-						href="#"
+						href="/services"
 						onClick={toggleMenu}
 						className={
 							isActive('/services')
@@ -160,10 +160,10 @@ const Navbar = () => {
 						Services
 					</Link>
 					<Link
-						href="#"
+						href="/aboutus"
 						onClick={toggleMenu}
 						className={
-							isActive('/about-us')
+							isActive('/aboutus')
 								? 'text-[#ED0D0D] font-bold'
 								: 'hover:text-[#ED0D0D]'
 						}
@@ -183,10 +183,10 @@ const Navbar = () => {
 						Shop
 					</Link>
 					<Link
-						href="#"
+						href="/contact"
 						onClick={toggleMenu}
 						className={
-							isActive('/contact-us')
+							isActive('/contact')
 								? 'text-[#ED0D0D] font-bold'
 								: 'hover:text-[#ED0D0D]'
 						}
