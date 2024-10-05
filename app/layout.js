@@ -7,7 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
 	title: 'Serviscall',
-	description: 'A construction company website',
+	description: 'A construction company website in Nigeria.',
+	icons: {
+		icon: '/favicon.ico', // Path to your favicon
+	},
 };
 
 export default function RootLayout({ children }) {
