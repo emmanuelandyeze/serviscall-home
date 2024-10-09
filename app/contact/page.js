@@ -43,10 +43,10 @@ export default function ContactUsPage() {
 					<p className="text-lg font-semibold">
 						Email: myserviscall@gmail.com
 					</p>
-					<p className="text-lg font-semibold">
+					{/* <p className="text-lg font-semibold">
 						Address: 183, Bamgbose St., Lagos Island,
 						102273, Lagos Nigeria
-					</p>
+					</p> */}
 				</div>
 			</section>
 

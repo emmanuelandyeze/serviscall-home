@@ -81,11 +81,11 @@ const Footer = () => {
 								<MdOutlineEmail className="mr-2" />
 								myserviscall@gmail.com
 							</li>
-							<li className="flex items-center">
+							{/* <li className="flex items-center">
 								<IoLocationOutline className="mr-2 h-6" />
 								183, Bamgbose St., Lagos Island, 102273,
 								Lagos Nigeria
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>

@@ -3,7 +3,7 @@
 import Image from 'next/image';
 
 const galleryImages = Array.from(
-	{ length: 18 },
+	{ length: 69 },
 	(_, i) => `/images/project${i + 1}.jpg`,
 );
 
