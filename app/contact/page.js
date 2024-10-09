@@ -33,8 +33,7 @@ export default function ContactUsPage() {
 			<section className="text-center mb-12">
 				<p className="text-lg">
 					Have any questions or need assistance? We're here
-					to help! Contact us via phone, email, or fill out
-					the form below.
+					to help! Contact us via phone, or email.
 				</p>
 				<div className="mt-6">
 					<p className="text-lg font-semibold">
